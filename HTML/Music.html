@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Music</title>
+    <script src="../JS/Music.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="../CSS/Music.css">
+    <link rel="stylesheet" href="../CSS/fontface.css">
+  </head>
+  <body>
+    <main>
+    <div class="">
+      <button type="button" name="button" onclick="juke()"><img src="../IMG/play.png" alt=""></button>
+      <button type="button" name="button" onclick="controls()" ondblclick="controlsoff()">Controls</button>
+      <button type="button" name="button" onclick="stop()"><img src="../IMG/pause.png" alt=""></button>
+    </div>
+    <div id="divaudio">
+      <audio src=(unknown) id="Audio" autoplay>Appuyer sur le bouton play
+      </audio>
+      <p id="song"></p>
+      <p id="lyrics"></p>
+    </div>
+  </main>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Les accords musicaux</title>
+     <script charset="utf-8">
+     function play() {
+       music = "../MUSIC/All falls down.m4a";
+       document.getElementById('audio').src = music;
+     }
+     function stop() {
+       document.getElementById('audio').src = "";
+     }
+     </script>
+    <link rel="stylesheet" href="../CSS/Index.css">
+    <link rel="stylesheet" href="../CSS/fontface.css">
+  </head>
+  <body>
+    <main>
+      <h1>Les accords musicaux</h1>
+      <div id="LogoImg">
+        <button onclick="play()" ondblclick="stop()"><img src="../IMG/Logo.png" alt="les accords musicaux" id="logo"></button>
+        <figcaption id="problématique">Peut-on parler d'accords musicaux sans mathématiques ?</figcaption>
+        <p id="Intro">Comme les images et les odeurs, les sons permettent de s’exprimer, de s’échanger, de se comprendre. Mais les sons ne servent pas simplement pour les interactions entre les êtres vivants, les sons sont aussi un moyen fondamental pour comprendre le monde, ceux-ci aident à se repérer et à éviter de perdre sa tête dans un monde qui va à un rythme incessant.
+Inutile alors de dire pourquoi ces simples oscillations dans un corps fluide sont importantes.<br> Ces sons peuvent provenir de plusieurs sources et dépendamment de cette source, les sons peuvent avoir différents effets sur nous, par exemple, le bruit d’un chien qui aboie ou celui d’une terrible explosion sera fortement agaçant pour nos oreilles, tandis que le doux bruit du vent des prés et d’une pluie d’été auront tendance à plaire à nos oreilles. On distingue donc les sons agaçants et les sons plaisants.
+C’est dans ce groupe des sons plaisants que l’on pourrait ranger les sons musicaux. Les sons peuvent être utilisés de plusieurs façons dans la vie quotidienne, par exemple les klaxons des voitures, les sonneries de téléphone… Mais la meilleure utilisation des sons est sans lorsque ceux-ci servent à la création artistique, c’est-à-dire au génie musical</p>
+      </div>
+      <div id="Content">
+        <div id="Accords" class="content">
+          <img src="../IMG/Music.png" alt="" class="img">
+          <h3><a href="AccordsMusicaux.html">Les accords musicaux</a></h3>
+          <p>Découvrez quels secrets mathématiques se cachent derrière la formation des accords musicaux</p>
+        </div>
+        <div id="Relax" class="content">
+          <img src="../IMG/headphone.png" alt="" class="img">
+          <h3><a href="Relax.html">Relax</a></h3>
+          <p>Venez vous relaxer en écoutant de la musique.</p>
+        </div>
+        <div id="Synthèse" class="content">
+          <img src="../IMG/sheet.png" alt="" class="img">
+          <h3><a href="#">le TPE</a></h3>
+          <p>Apprenez-en plus sur le déroulement de nos Travaux Pratiques Encadrés</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <li>RAKOTOARIVELO <a href="easteregg.html">Tiantsoa</a></li>
+        <li>RAKOTONIRINA Ryan</li>
+        <li>RANDRIAMANANTENA Kiady</li>
+        <li>1ère S</li>
+    </footer>
+    <audio src="" loop autoplay id="audio">
+    </audio>
+  </body>
+</html>
