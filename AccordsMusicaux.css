@@ -1,0 +1,68 @@
+body{
+  color: #21ef8b;
+  background-color: rgb(50,50, 50);
+  background-size: 200%;
+  font-family: 'Roboto Thin',sans-serif;
+}
+p{
+  font-family: 'Roboto Thin';
+  color: White;
+  width: 500pt;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+  text-align: center;
+}
+#formula{
+  font-family: 'Roboto Thin';
+}
+img{
+  width: 750px;
+  padding: 25px;
+}
+li{
+  text-align: center;
+  color: white;
+}
+button{
+  background: none;
+  border: none;
+  width: 150pt;
+  margin-left: auto;
+  margin-right: auto;
+}
+button:hover{
+  cursor :pointer;
+  background: rgba(36,32,56,0.2);
+}
+#Title{
+  font-family: 'The Skinny';
+  font-size: 72pt;
+}
+#logo{
+  width: 100pt;
+  margin-left: auto;
+  margin-right: auto;
+}
+#LogoImg{
+  width: 100pt;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grandeur{
+  text-align: left;
+}
+#grandeur{
+  width : 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+text{
+  text-align: left;
+}
+img{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}

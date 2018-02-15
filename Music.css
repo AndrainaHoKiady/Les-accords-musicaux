@@ -1,0 +1,48 @@
+body{
+  color: #21ef8b;
+  background-color: rgb(50,50,50);
+  background-size: 200%;
+  font-family: 'Roboto Condensed',sans-serif;
+}
+button{
+  text-align: center;
+  color: #21ef8b;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  background: none;
+  border: none;
+}
+button:hover{
+  border-left: solid;
+  border-right: solid;
+}
+img{
+  width: 50pt;
+}
+div{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+#divaudio{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width : 20em;
+}
+audio{
+  padding: 20px;
+  width : 20em;
+  margin-left: auto;
+  margin-right: auto;
+}
+#song{
+  text-align: center;
+}
+main{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 50pt;
+}

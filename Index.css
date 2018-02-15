@@ -1,0 +1,100 @@
+body{
+  color: #21ef8b;
+  background-image: url('../IMG/Artiste.jpg');
+  background-color: rgb(50,50, 50);
+  background-size: 200%;
+  background-position: center;
+  font-family: 'Roboto Condensed',sans-serif;
+}
+
+#navbar {
+  background-color: #332D4F;
+  height: 50px;
+  vertical-align: middle;
+}
+img{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#LogoImg{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+  font-size: 2em;
+}
+#Content{
+  padding-top: 50px;
+  font-family: 'Roboto Thin',sans-serif;
+  display: flex;
+  flex-basis: auto;
+  justify-content: center;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  text-overflow: ellipsis;
+}
+h3{
+  font-size: 20pt;
+  text-align: center;
+  width: 300px;
+  font-family: 'Roboto Light';
+}
+p{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 18pt;
+  color : White;
+  font-family: 'Roboto Thin';
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+}
+a:hover{
+  border-left: solid;
+  border-right: solid;
+}
+button{
+  background: none;
+  border: none;
+  padding: 75px;
+}
+button:hover{
+  cursor :pointer;
+  background: rgba(36,32,56,0.2);
+}
+#credits{
+  font-family: 'Roboto Light';
+  font-style: italic;
+  display: auto;
+}
+.img{
+  width: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content{
+  padding: 50px;
+}
+#Intro{
+  width: 100%;
+}
+h1{
+  font-family: 'The Skinny',sans-serif;
+  text-align: center;
+  font-size: 48pt;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+}

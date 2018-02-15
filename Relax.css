@@ -1,0 +1,27 @@
+main{
+  display: flex;
+  justify-content: space-between;
+}
+a{
+  text-align: center;
+  color: #21ef8b;
+  padding: 50px;
+  font-size: 48pt;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+a:hover{
+  border-left: solid;
+  border-right: solid;
+}
+body{
+  color: #21ef8b;
+  background-color: rgb(50, 50, 50);
+  background-size: 200%;
+  font-family: 'Roboto Condensed',sans-serif;
+}
+h1{
+  text-align: center;
+  font-size: 72pt;
+}
